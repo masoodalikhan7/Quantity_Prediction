@@ -8,7 +8,6 @@ Created on Thu Dec 16 20:45:41 2021
 import streamlit as st
 import numpy as np
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 
 
