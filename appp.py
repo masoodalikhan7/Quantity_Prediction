@@ -21,7 +21,7 @@ st.markdown('The model can predict the Quantity by taking an input from a partic
 def predict_class():
     data = list([Material,month,Vendor])
     result = predict(data)
-    st.write("The predicted Quantity is ",result)
+    st.write("The predicted Quantity in Kilograms(KG) is ",result)
 
 st.markdown("**Please enter the details **")
     
