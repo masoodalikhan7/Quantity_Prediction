@@ -15,4 +15,4 @@ def predict(arr):
     saved_pred = pickle.load(open(filename, 'rb'))
     # return prediction as well as class probabilities
     preds = saved_pred.predict([arr])[0]
-    return ([np.argmax(preds)], preds)
+    return (preds)
